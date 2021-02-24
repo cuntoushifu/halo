@@ -1,0 +1,23 @@
+server:
+  port: 8090
+
+  # Response data gzip.
+  compression:
+    enabled: false
+#spring:
+##  datasource:
+
+    # MySQL database configuration. yy03091208
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/halodb?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+#    username: root
+#    password: root
+
+
+halo:
+
+  # Your admin client path is https://your-domain/{admin-path}
+  admin-path: admin
+
+  # memory or level
+  cache: memory
